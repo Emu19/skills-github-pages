@@ -1,3 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emu Market</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #FFA500; /* Улбар шар өнгө */
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 15px 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #FFA500;
+            color: #fff;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #FFA500;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+        }
+
+        .section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Emu Market</h1>
+    </header>
+    <nav>
+        <a href="#home">Нүүр</a>
+        <a href="#about">Бидний тухай</a>
+        <a href="#products">Бүтээгдэхүүн</a>
+        <a href="#search">Хайлт</a>
+        <a href="#contact">Холбоо барих</a>
+    </nav>
+    <div class="hero">
+        <h1>Бүх төрлийн шинэ болон хуучин барааны онлайн дэлгүүр</h1>
+        <p>Гэрээсээ орлого олох боломжийг манай платформ танд олгоно.</p>
+    </div>
+    <section id="about" class="section">
+        <h2>Бидний тухай</h2>
+        <p>Emu Market нь хувь хүн болон дэлгүүрүүдэд шинэ болон хуучин бараагаа онлайнаар борлуулах боломжийг олгодог.</p>
+    </section>
+    <section id="products" class="section">
+        <h2>Бүтээгдэхүүн</h2>
+        <p>Бүтээгдэхүүний мэдээлэл энд гарна.</p>
+    </section>
+    <section id="search" class="section">
+        <h2>Хайлт</h2>
+        <p>Та хүссэн бүтээгдэхүүнээ хайж олох боломжтой.</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Холбоо барих</h2>
+        <p>Имэйл болон бусад мэдээлэл удахгүй нэмэгдэнэ.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Emu Market. Бүх эрх хуулиар хамгаалагдсан.</p>
+    </footer>
+</body>
+</html>
 <header>
 
 <!--
